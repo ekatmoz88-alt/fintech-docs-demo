@@ -1,0 +1,24 @@
+  +----------------+      +-------------------+      +------------------+
+  |  User submits  | ---> |  Auto-extract ID  | ---> |  PII masked UI   |
+  |  ID scan       |      |  Name/DOB/No.     |      |  F*** N*** 1234  |
+  +----------------+      +-------------------+      +--------+---------+
+                                                         |
+                                            +------------+------------+
+                                            |                         |
+                                     [L1 Operator]             [Flag raised]
+                                     auto-approve std           |
+                                            |                   v
+                                            |          +------------------+
+                                            |          |  L2 Manual Review |
+                                            |          |  unmask (2FA+live)|
+                                            |          +--------+---------+
+                                            |                   |
+                                            v                   v
+                                   +----------------+   +--------------+
+                                   | Verified       |   | Doubtful     |
+                                   | -> QR token    |   | -> Escalate  |
+                                   +----------------+   +--------------+
+
+  Audit: op***07 | kyc.approve | sub#8821 | pending->verified | 2026-10-05T09:12Z
+  (No raw PII. RFID UID hashed: ****A3F1)
+
