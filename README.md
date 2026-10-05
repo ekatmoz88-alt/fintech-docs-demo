@@ -7,4 +7,7 @@ Documentation structure for a fictional crypto-onramp operator console.
 - **User Flows:** Crypto onramp scenario (`/flows`)
 - **Security:** PII classification, RFID threat matrix (`/security`)
 
-*Demo-only. No real data included.*
+*Demo-only. No real data included.*s
+
+ `security/audit-log-spec.md` 
+  append-only audit log schema
