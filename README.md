@@ -1,13 +1,12 @@
 # Fintech Documentation Demo
 
-A portfolio case study showing how technical documentation can support a fictional crypto-onramp operator console.
+A portfolio case study demonstrating technical documentation for a fictional crypto-onramp operator console.
 
-## Scope
+**Focus:** user journeys · KYC workflows · operational procedures · data classification · audit logging
 
-- **Operator experience:** L1/L2 console flows and role-based review steps.
-- **User journeys:** a crypto-onramp scenario from identity submission through review and release.
-- **Security documentation:** PII classification, masking rules, audit-log requirements, and RFID-related threat considerations.
-- **Process diagrams:** a documented KYC/onramp flow.
+## Project overview
+
+This demo explores how documentation can make complex operational and compliance-related workflows easier to understand. It covers both user-facing journeys and internal operator processes, with supporting security and audit documentation.
 
 ## Selected artifacts
 
@@ -16,14 +15,15 @@ A portfolio case study showing how technical documentation can support a fiction
 | [Crypto onramp flow](flows/04-crypto-onramp.md) | Documents the user and operator journey |
 | [PII data classification](security/pii-data-classification.md) | Defines data sensitivity levels, masking, access, and retention rules |
 | [Audit log specification](security/audit-log-spec.md) | Describes audit fields, prohibited logged data, and retention |
-| [KYC/onramp flow diagram](diagrams/flow-kyc-onramp.txt) | Visualizes the high-level process |
+| [KYC/onramp flow diagram](diagrams/flow-kyc-onramp.txt) | Shows the high-level process |
 
 ## Skills demonstrated
 
 - Structuring documentation for complex workflows.
-- Translating operational processes into step-by-step user flows.
+- Translating operational processes into clear, step-by-step user flows.
 - Documenting roles, data handling, masking, and audit requirements.
-- Creating concise tables, specifications, and process diagrams.
+- Creating concise specifications, tables, and process diagrams.
+- Making assumptions and process boundaries explicit.
 
 ## Project context
 
