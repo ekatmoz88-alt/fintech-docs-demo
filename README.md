@@ -1,5 +1,7 @@
 # Fintech Documentation Demo
 
+**Published documentation:** https://ekatmoz88-alt.github.io/fintech-docs-demo/
+
 A portfolio case study demonstrating technical documentation for a fictional crypto-onramp operator console.
 
 **Focus:** user journeys · KYC workflows · operational procedures · data classification · audit logging
@@ -33,4 +35,4 @@ This is a fictional, demo-only portfolio project. It contains no real customer r
 
 **Kate Motsar** — Technical Writer | API Documentation | Documentation Engineering
 
-[GitHub profile](https://github.com/ekatmoz88-alt) · [LinkedIn](https://www.linkedin.com/in/kate-motsar-b56974267/)
+[GitHub profile](https://github.com/ekatmoz88-alt) · [LinkedIn](https://www.linkedin.com/in/ekatmoz88/)
