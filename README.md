@@ -36,3 +36,8 @@ This is a fictional, demo-only portfolio project. It contains no real customer r
 **Kate Motsar** — Technical Writer | API Documentation | Documentation Engineering
 
 [GitHub profile](https://github.com/ekatmoz88-alt) · [LinkedIn](https://www.linkedin.com/in/ekatmoz88/)
+
+
+## Tags
+
+`fintech` · `workflow-documentation` · `pii-classification` · `security` · `audit-logging` · `demo-only`
