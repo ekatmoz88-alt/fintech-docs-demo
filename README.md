@@ -1,5 +1,7 @@
 # Fintech Documentation Demo
 
+[English](README.md) | [Русский](README.ru.md)
+
 **Published documentation:** https://ekatmoz88-alt.github.io/fintech-docs-demo/
 
 A portfolio case study demonstrating technical documentation for a fictional crypto-onramp operator console.
