@@ -1,4 +1,4 @@
-# Fintech Documentation Demo
+# Fintech Operations Documentation
 
 [English](README.md) | [Русский](README.ru.md)
 
