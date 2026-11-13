@@ -4,13 +4,13 @@
 
 **Published documentation:** https://ekatmoz88-alt.github.io/fintech-docs-demo/
 
-A portfolio case study demonstrating technical documentation for a fictional crypto-onramp operator console.
+Technical documentation for a real crypto-onramp operator console project. The public portfolio materials are anonymized and describe the documented user journeys, KYC workflows, operator procedures, data classification, and audit logging.
 
 **Focus:** user journeys · KYC workflows · operational procedures · data classification · audit logging
 
 ## Project overview
 
-This demo explores how documentation can make complex operational and compliance-related workflows easier to understand. It covers both user-facing journeys and internal operator processes, with supporting security and audit documentation.
+The project documents real operational and compliance-related workflows, including user-facing journeys, internal operator processes, security controls, and audit requirements. Public materials are anonymized; no customer records or personal data are included.
 
 ## Selected artifacts
 
@@ -31,7 +31,7 @@ This demo explores how documentation can make complex operational and compliance
 
 ## Project context
 
-This is a fictional, demo-only portfolio project. It contains no real customer records and does not describe a live financial product.
+This is a real project documented for the public portfolio in an anonymized form. No real customer records, credentials, or personal data are published. The current operating status of the original service is not implied by this documentation page.
 
 ## Author
 
@@ -42,4 +42,4 @@ This is a fictional, demo-only portfolio project. It contains no real customer r
 
 ## Tags
 
-`fintech` · `workflow-documentation` · `pii-classification` · `security` · `audit-logging` · `demo-only`
+`fintech` · `workflow-documentation` · `pii-classification` · `security` · `audit-logging` · `anonymized-project-documentation`
