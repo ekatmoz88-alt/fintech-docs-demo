@@ -31,7 +31,7 @@ The project documents real operational and compliance-related workflows, includi
 
 ## Project context
 
-This is a real project documented for the public portfolio in an anonymized form. No real customer records, credentials, or personal data are published. The current operating status of the original service is not implied by this documentation page.
+This is a real project that was deployed and operated in its project environment. The public portfolio presents selected documentation artifacts in anonymized form. No customer records, credentials, or personal data are published. The current state of the original operating environment was not rechecked during portfolio preparation.
 
 ## Author
 
