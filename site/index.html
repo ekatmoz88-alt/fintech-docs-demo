@@ -84,9 +84,26 @@ footer span:last-child { color: var(--muted); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Shared portfolio navigation shell */
+.fintech-topbar{position:sticky;top:0;z-index:30;height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:#37474f;color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.fintech-topbar a{color:#fff;font-size:12px}.fintech-topbar strong{font-size:13px;font-weight:650}
+.fintech-layout{display:grid;grid-template-columns:240px minmax(0,1fr);max-width:1440px;margin:0 auto}
+.fintech-sidebar{position:sticky;top:48px;align-self:start;height:calc(100vh - 48px);overflow:auto;padding:24px 16px 32px 20px;background:#f5f7f8;border-right:1px solid #e0e0e0}
+.fintech-sidebar p{margin:0 0 10px;color:#607d8b;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.fintech-sidebar a{display:block;padding:6px 9px;border-radius:2px;color:#455a64;font-size:12px}
+.fintech-sidebar a:hover{background:#e8eef0;color:#263238;text-decoration:none}
+.fintech-layout>.shell{width:100%;max-width:1080px;margin:0;padding:0 40px}
+.fintech-layout .hero{padding:34px 0 32px}
+.fintech-layout section.content{padding:32px 0 48px}
+.fintech-layout h1{font-size:clamp(25px,2.4vw,30px);font-weight:400;letter-spacing:0}
+.fintech-layout h2{font-size:20px;font-weight:400}
+.fintech-layout .card{border-radius:2px}
+@media(max-width:760px){.fintech-layout{grid-template-columns:1fr}.fintech-sidebar{position:static;height:auto;overflow:visible;padding:10px 18px;border-right:0;border-bottom:1px solid #e0e0e0}.fintech-sidebar nav{display:flex;flex-wrap:wrap;gap:3px 8px}.fintech-layout>.shell{padding:0 20px}.fintech-layout .hero{padding:26px 0}.fintech-layout section.content{padding:24px 0 40px}}
+
 </style>
 </head>
-<body><a class="skip-link" href="#main" style="position:absolute;left:-9999px;top:8px;padding:10px 14px;background:#eaf3ff;color:#0759c7;z-index:100">Skip to main content</a><div class="shell">
+<body><header class="fintech-topbar"><strong>Fintech Operations Documentation</strong><a href="https://github.com/ekatmoz88-alt/fintech-docs-demo">GitHub repository ↗</a></header><div class="fintech-layout"><aside class="fintech-sidebar"><p>Documentation</p><nav><a href="#top">Overview</a><a href="#docs">Documentation set</a><a href="#scope">Project scope</a><a href="https://github.com/ekatmoz88-alt/fintech-docs-demo/blob/main/flows/04-crypto-onramp.md">Operator workflow</a><a href="https://github.com/ekatmoz88-alt/fintech-docs-demo/blob/main/arm/arm-overview.md">Operator console</a><a href="https://github.com/ekatmoz88-alt/fintech-docs-demo/blob/main/security/pii-data-classification.md">PII classification</a><a href="https://github.com/ekatmoz88-alt/fintech-docs-demo/blob/main/security/audit-log-spec.md">Audit logging</a></nav></aside> href="#main" style="position:absolute;left:-9999px;top:8px;padding:10px 14px;background:#eaf3ff;color:#0759c7;z-index:100">Skip to main content</a><div class="shell">
 <header><a class="brand" href="#top"><span class="mark">K</span><span>Kate Motsar <span style="color:var(--teal)">/</span> Portfolio</span></a><nav aria-label="Main navigation"><a href="#docs">Documentation</a><a href="#scope">Project scope</a><a href="https://github.com/ekatmoz88-alt">GitHub ↗</a></nav></header>
 <main id="top">
 <section class="hero"><div class="kicker">Technical writing · Portfolio case study</div><h1>Fintech docs,<br><span>made clear.</span></h1><p class="lead">Documentation for a real crypto-onramp operator-console project. Explore its user journeys, operational review steps and security requirements in one coherent documentation set.</p><div class="actions"><a class="btn primary" href="#docs">Explore the documentation ↓</a><a class="btn secondary" href="https://github.com/ekatmoz88-alt/fintech-docs-demo">View source on GitHub ↗</a></div><div class="tags"><span class="tag">KYC workflows</span><span class="tag">PII classification</span><span class="tag">Audit logging</span><span class="tag">Process diagrams</span></div></section>
@@ -100,4 +117,4 @@ footer span:last-child { color: var(--muted); }
 <div class="scope" id="scope"><div class="info">i</div><div><strong>Project scope</strong><p>This page presents selected, anonymized documentation for a real project that was deployed and operated in its project environment. It contains no customer records, credentials or personal data. The current state of the original server environment was not rechecked during portfolio preparation; the repository remains the source of truth.</p></div></div>
 </section></main>
 <footer><span>© Kate Motsar · Technical Writer | API Documentation | Documentation Engineering</span><span>Built for clarity ✦</span></footer>
-</div></body></html>
+</div></div></body></html>
